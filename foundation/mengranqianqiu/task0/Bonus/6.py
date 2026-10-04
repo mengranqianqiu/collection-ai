@@ -1,7 +1,7 @@
 def count_number(nums):
     counter = {}
     for num in nums:
-        counter[num] = counter.get(num, 0) + 1
+        counter[num] = counter.get(num, 0) + 1 #deepseek
     return counter
 def main():
     nums = list(map(int, input().split()))
