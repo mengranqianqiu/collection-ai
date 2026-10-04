@@ -7,7 +7,7 @@ def main():
     '5': '周芷若',
     '6': '张无忌',
     }
-    students2 = {key:value for key, value in students.items() if int(key) % 2 != 0}
+    students2 = {key:value for key, value in students.items() if int(key) % 2 != 0} #deepseek
     print(students2)
 if __name__ == "__main__":
     main()
