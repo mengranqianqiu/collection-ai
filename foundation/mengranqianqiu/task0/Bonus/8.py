@@ -1,3 +1,4 @@
+#这个我不太会写，大部分都是ai生成的
 import random
 class Card:
     def __init__(self, face):
